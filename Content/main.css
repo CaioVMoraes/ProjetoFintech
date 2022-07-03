@@ -1,0 +1,29 @@
+.content {
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.botaoCadastrar{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #27D858;
+    color:#FFFFFF;
+    font-size: 18px;
+}
+
+.botaoLogin{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border:none;
+    background-color:#FFFFFF;
+    color:#066A22;
+    font-size: 18px;
+    font-weight: bold;
+}

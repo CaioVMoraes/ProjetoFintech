@@ -1,0 +1,137 @@
+.navbar {
+    text-align: center;
+    background-color: #1BD273;
+    height: 50px;
+    color: #ffffff;
+    padding: 43.3%;
+}
+
+.content {
+    margin: 50px auto;
+    background-color: #F7EAEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 15px;
+    margin-left: -35px;
+    display: block;
+}
+
+.divBotoes {
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 600px;
+    height: 120px;
+    padding: 35px;
+}
+
+.novaReceita, .novaDespesa {
+    width: 263px;
+}
+
+.divContas {
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 600px;
+    height: 450px;
+    padding: 35px;
+}
+
+.divReceitas, .divDespesas {
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 600px;
+    height: 350px;
+    padding: 35px;
+}
+
+.titulo {
+    font-size: 17px;
+    color: #4d4d4d;
+    font-weight: bold;
+}
+
+.userIcon {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.iconSaldoGeral {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+}
+
+.lb-title {
+    color: #4d4d4d;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 13px;
+    float: right;
+}
+
+.lb-titleSaldo {
+    color: #4d4d4d;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 13px;
+    float: right;
+}
+
+.valorGeral {
+    color: #4d4d4d;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+}
+
+.valor {
+    color: #3298ff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+}
+
+.valorReceita {
+    color: #20a00f;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+}
+
+.valorDespesa {
+    color: #1e0fa0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+}

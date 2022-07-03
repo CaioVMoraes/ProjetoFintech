@@ -1,0 +1,101 @@
+.content {
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.divLogin {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 600px;
+    margin: 0 auto 100px;
+    padding: 65px;
+}
+
+#email, #senha {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #A6A0A0;
+    border-radius: 6px;
+}
+
+.botaoEntrar{
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #27D858;
+    color:#FFFFFF;
+    font-size: 18px;
+}
+
+
+
+
+.facebook {
+    display: inline-block;
+	width: 100%;
+    border: 0px solid #178bb6;
+    border-radius: 8px;
+    background: #3b5998;
+    font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.facebook:hover,
+.facebook:focus {
+    background: #37528c;
+    color: #ffffff;
+    text-decoration: none;
+}
+.facebook:active {
+    background: #1ca4d6;
+}
+.facebook:before{
+    content:  "\0000a0";
+    text-align: left;
+    display: inline-block;
+    margin-right: 25%;
+    border: 0px solid #178bb6;
+    border-radius: 8px;
+    width: 35px;
+    background: url("https://i.imgur.com/0bcxkOD.png") no-repeat center center #37528c;
+}
+
+
+
+.google {
+    display: inline-block;
+	width: 100%;
+    border: 0px solid #178bb6;
+    border-radius: 8px;
+    background: #d34836;
+    font-family: 'Open Sans', sans-serif;
+	font-weight:700;
+    color: #ffffff;
+    text-decoration: none;
+}
+.google:hover,
+.google:focus {
+    background: #c74534;
+    color: #ffffff;
+    text-decoration: none;
+}
+.google:active {
+    background: #1ca4d6;
+}
+.google:before{
+    content:  "\0000a0";
+    display: inline-block;
+    margin-right: 25%;
+    border: 0px solid #178bb6;
+    border-radius: 8px;
+    width: 35px;
+    background: url("https://i.imgur.com/GxFF74f.png") no-repeat center center #c74534;
+}

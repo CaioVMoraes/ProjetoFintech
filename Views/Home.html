@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Content/home.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<style>
+    body {
+        background-color: #F7EAEA;
+    }
+</style>
+<header class="navbar">
+       <img src="https://marerenovaveis.com.br/img/user.png" class="userIcon"> <h4>Bem vindo Usuario!</h4>
+</header>
+<body>
+    <div class="content">
+        <div class="divBotoes">
+            <div>
+                <ul>
+                    <li>
+                        <div style="display: inline-block">
+                            <button type="button" class="btn btn-success novaReceita" onclick="AbrirNovaReceita()">Nova Receita</button>
+                            <button type="button" class="btn btn-danger novaDespesa" onclick="AbrirNovaDespesa()">Nova Despesa</button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="divContas">
+            <div style="padding-bottom:24px;">
+                <h2 class="titulo">Minhas contas</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <div style="display: inline-block">
+                            <img class="iconSaldoGeral" src="https://images.vexels.com/media/users/3/130116/isolated/preview/215a871596b92451a1678e36960c0ab7-icone-de-moeda-de-dolar.png">
+                            <span>
+                                <p class="lb-titleSaldo">Saldo geral</p>
+                            </span>
+                        </div>
+                        <p class="valorGeral">R$ 865,00</p>
+                    </li>
+                    <br>
+                    <li>
+                        <div style="display: inline-block">
+                            <img class="icon" src="https://d23hftgbxgj1w.cloudfront.net/institutions/logos/nuconta.png">
+                            <span>
+                                <p class="lb-title">Nubank</p>
+                            </span>
+                        </div>
+                        <p class="valor">R$ 250,00</p>
+                    </li>
+                    <li>
+                        <div style="display: inline-block">
+                            <img class="icon" src="https://d23hftgbxgj1w.cloudfront.net/institutions/logos/itau.png">
+                            <span>
+                                <p class="lb-title">Itau</p>
+                            </span>
+                        </div>
+                        <p class="valor">R$ 500,00</p>
+                    </li>
+                    <li>
+                        <div style="display: inline-block">
+                            <img class="icon" src="https://d23hftgbxgj1w.cloudfront.net/institutions/logos/santander.png">
+                            <span>
+                                <p class="lb-title">Santander</p>
+                            </span>
+                        </div>
+                        <p class="valor">R$ 115,00</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="divReceitas">
+            <div style="padding-bottom:24px;">
+                <h2 class="titulo">Receitas</h2>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <div style="display: inline-block">
+                            <img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ6SMumSvGcLSYdEFrCasc1th7Tf9sQP_tpA&usqp=CAU">
+                            <span>
+                                <p class="lb-title">Salário</p>
+                            </span>
+                        </div>
+                        <p class="valorReceita">R$ 1500,00</p>
+                    </li>
+                    <li>
+                        <div style="display: inline-block">
+                            <img class="icon" src="https://static.vecteezy.com/ti/vetor-gratis/p3/4182758-propriedade-compra-linear-icone-real-mercado-imobiliario-casa-com-cifrao-dentro-de-linha-fina-contorno-simbolos-na-cor-fundo-casa-a-venda-ilustracaoial-vetor.jpg">
+                            <span>
+                                <p class="lb-title">Vendas</p>
+                            </span>
+                        </div>
+                        <p class="valorReceita">R$ 250,00</p>
+                    </li>
+                    <li>
+                        <div style="display: inline-block">
+                            <img class="icon" src="https://img2.gratispng.com/20180324/rse/kisspng-computer-icons-united-states-dollar-dollar-sign-do-dollar-5ab6e7e0a640e4.668921391521936352681.jpg">
+                            <span>
+                                <p class="lb-title">Investimentos</p>
+                            </span>
+                        </div>
+                        <p class="valorReceita">R$ 500,00</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="divDespesas">
+            <div style="padding-bottom:24px;">
+                <h2 class="titulo">Despesas</h2>
+            </div>
+            <ul>
+                <li>
+                    <div style="display: inline-block">
+                        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/1310/1310989.png">
+                        <span>
+                            <p class="lb-title">Aluguel</p>
+                        </span>
+                    </div>
+                    <p class="valorDespesa">R$ 900,00</p>
+                </li>
+                <li>
+                    <div style="display: inline-block">
+                        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/1310/1310989.png">
+                        <span>
+                            <p class="lb-title">Conta de água</p>
+                        </span>
+                    </div>
+                    <p class="valorDespesa">R$ 60,00</p>
+                </li>
+                <li>
+                    <div style="display: inline-block">
+                        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/1310/1310989.png">
+                        <span>
+                            <p class="lb-title">Conta de Luz</p>
+                        </span>
+                    </div>
+                    <p class="valorDespesa">R$ 190,00</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function AbrirNovaReceita() {
+        window.location.href = "../Views/NovaReceita.html";
+    }
+    function AbrirNovaDespesa() {
+        window.location.href = "../Views/NovaDespesa.html";
+    }
+</script>
+
+</html>
+
+
